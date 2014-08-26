@@ -34,6 +34,6 @@ ObjectClass ( 1.3.6.1.4.1.4203.666.2.99
 		DESC 'Object class to allow the user mailbox to be encrypted'
 	SUP top
 	AUXILIARY
-		MAY ( encryptMail $ encPublicKey )
+		MAY ( encryptMail $ encPublicKey $ encPKId )
 		MUST ( mailHomeDirectory )
  )
