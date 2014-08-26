@@ -63,4 +63,4 @@ $ chmod 0755 /opt/sysproof/sysproof.py
 $ ln -s /etc/dovecot/sieve-filters/sysproof /opt/sysproof/sysproof.py 
 </pre></dl>
 
-Finally, add the sysproof.schema to your LDAP, add "encPublicKey","encryptMail=TRUE" and "encPKId" to the users on the LDAP who you want to encrypt their emails.
+Finally, add the sysproof.schema to your LDAP, modify your LDAP configuration parameters and filter in "sysproof.py" and add "encPublicKey","encryptMail=TRUE" and "encPKId" to the users on the LDAP who you want to encrypt their emails.
